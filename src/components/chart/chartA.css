@@ -1,0 +1,16 @@
+.ChartAA{
+    padding: 5vh;
+    width: 48vw;
+    height: 60vh;
+}
+.line{
+    height: 0.25vh;
+    width: 100%;
+    background-color: rgb(189, 183, 183);
+}
+@media screen and (max-width:900px){
+    .ChartAA{
+        width: 90vw;
+        height: 90vh;
+    }
+}

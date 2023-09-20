@@ -1,0 +1,11 @@
+.vppoverview{
+    margin: 0;
+    padding: 0;
+    height: 12vh;
+    width: 100vw;
+    overflow: hidden;
+    color: grey;
+    /* background-color: aqua; */
+    padding: 2vh 5vw;
+    /* font-size: 20vh; */
+}

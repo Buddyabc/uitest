@@ -1,0 +1,53 @@
+[{
+    "navbar":{
+     "logo":{
+        "inner":"Logo"
+     },
+     "account":{
+        "link":"#"
+     },
+     "notification":{
+        "link":"#"
+     },
+     "grid":{
+        "link":"#"
+     },
+     "selectedName":{
+        "name":"JOE DOE"
+     }
+    }
+},
+{
+    "SectionA":{
+        "inner":"VPP"
+    }
+},
+{
+    "SectionB":{
+        "compare":"lower",
+        "seeWhy":{
+            "link":"#"
+        },
+        "Homeprice":"$257.88",
+        "SimilarHomeprice":"$389.29"
+    }
+},
+{
+    "SectionBB":{
+        "ElectricBill":"$90",
+        "range":"$125 to $128",
+        "LearnMore":{
+            "link":"#"
+        }
+    }
+},
+{
+    "SectionBC": {
+        "Accountno":"411003876454",
+        "ElectricMeter":"611003876454",
+        "WaterMeter":"911343676454",
+        "Solar":"LG Solar | 8 Panels",
+        "Water": "911343676454",
+        "Battery":"SunPower | Li-ion"
+    }
+}]

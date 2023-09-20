@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.sectionB{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* width: 100vw; */
+    height: 81vh;
+    background-color: rgb(221, 218, 218);
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+}
+
+.heading{
+    margin-top:6vh;
+    margin-left: 5vw;
+    font-family: 'Lato', sans-serif;
+    font-size: 2vw;
+    font-weight: 600;
+}
+.partA{
+    width: 50vw;
+    height: 30vh;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid rgb(230, 224, 224);
+    border-radius: 2vh;
+}
+
+.sideone{
+    display: flex;
+    height: 100%;
+    width: 60%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+.sidetwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-evenly;
+    height: 100%;
+    width: 30%;
+}
+
+.barone-bar{
+    height: 8vh;
+    width: 3vw;
+    background-color: blue;
+    border: 2px solid rgb(223, 219, 219);
+    border-radius: 2px;
+}
+
+.bartwo-bar{
+    height: 10vh;
+    width: 3vw;
+    background-color: grey;
+    border: 2px solid rgb(223, 219, 219);
+    border-radius: 2px;
+}
+.bars{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.barsprice{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.barone-price{
+    font-size: 2vw;
+    font-weight: 600;
+}
+.bartwo-price{
+    font-size: 2vw;
+    font-weight: 600;
+}
+.barsAddress{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.barone-address{
+    font-size: 1.25vw;
+}
+.bartwo-address{
+    font-size: 1.25vw;
+}
+.sideoneheading{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+.electricbill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bill{
+    /* font-family: 'Lato', sans-serif; */
+    color: grey;
+    font-size: 4vh;
+}
+.electricbillhead{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.75vh;
+    font-weight: 600;
+}
+.container2{
+    width: 25vw;
+    margin-top: 15vh;
+    margin-right: 5vw;
+    background-color: white;
+    height: 50vh;
+    border-radius: 1.5vh;
+    /* padding-right: 10vw; */
+}
+.c-partA{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 16vh;
+}
+.c-partA1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.c-partB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-partA11{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+.raw1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vh;
+    /* height: 10vh; */
+}
+.line{
+    height: 0.5vh;
+    background-color: rgb(235, 228, 228);
+}
+.raws{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+}
+.name{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+.Section-C{
+   width: 50vh;
+   height: 50vh;
+   color: red;
+   background-color: white;
+}
+@media screen and (max-width:900px){
+    .sectionB{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 155vh;
+    }
+    .container1{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        /* margin: 5vw; */
+    }
+    .container2{
+        margin: 0;
+        width: 45vw;
+        height: 45vh;
+    }
+    .partA{
+        margin: 0;
+        width: 80vw;
+
+    }
+    .heading{
+        margin: 0;
+        font-size: 3vw;
+    }
+    .sidetwo{
+        width: 20%;
+    }
+    .barone-address{
+        font-size: 1.5vw;
+    }
+    .bartwo-address{
+        font-size: 1.5vw;
+    }
+    .barone-bar{
+        width: 5vw;
+    }
+    .bartwo-bar{
+        width: 5vw;
+    }
+    
+}
+@media screen and (max-width:600px){
+     .barone-address{
+        font-size: 2.5vw;
+    }
+     .bartwo-address{
+        font-size: 2.3vw;
+    }
+    .sidetwo{
+        width: 25%;
+    }
+    .partA{
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+    }
+    .container2{
+        width: 75vw;
+    }
+    
+}

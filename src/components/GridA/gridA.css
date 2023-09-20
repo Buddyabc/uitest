@@ -1,0 +1,79 @@
+.gridA{
+    margin: 0vh 2vw;
+    width: 48vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.headings{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(223, 215, 215);
+}
+.line{
+    height: 0.25vh;
+    width: 100%;
+    background-color: rgb(189, 183, 183);
+}
+.A{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vw 0 0vw;
+    font-size: 1.25vw;
+}
+.lowerSection{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lowerpara{
+    font-size: 0.80rem;
+    color: grey;
+}
+select{
+    border:none;
+    outline:none;
+    scroll-behavior: smooth;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    /* font-weight: 400; */
+    font-size: 1rem;
+    color: gray;
+}
+.pagination1{
+    display: flex;
+}
+.mainlower{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    align-items: flex-end;
+}
+@media screen and (max-width:900px){
+    .gridA{
+        width: 80vw;
+        height: 110vw;
+    }
+    .A{
+        font-size: 3vw;
+    }
+}
+@media screen and (max-width:650px){
+    .A{
+        font-size: 2vw;
+    }
+    .headings{
+        font-size: 2.2vw;
+        font-weight: 600;
+    }
+    .lowerpara,.selectSection{
+        font-size: 2vw;
+    }
+}

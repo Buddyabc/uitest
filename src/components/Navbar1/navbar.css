@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.navbar{
+    margin: 0;
+    padding: 0;
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+}
+select{
+    border:none;
+    outline:none;
+    scroll-behavior: smooth;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.otherSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 22vw;
+    padding-right: 4vw;
+}
+.logo{
+    padding:0 5vw;
+    font-family: 'Lato', sans-serif;
+    font-size: 3rem;
+}
+
+.borderLine{
+   height: 1px;
+   background-color: rgb(233, 222, 222);
+}
+@media screen and (max-width:900px) {
+    .navbar{
+        justify-content: space-between;
+    }
+    .logo{
+        padding: 0 2vw;
+    }
+    .otherSection{
+        width: 45vw;
+    }
+}
+@media screen and (max-width:500px){
+    .otherSection{
+        width: 65vw;
+        justify-content: center;
+        padding: 0;
+    }
+    .logo{
+        padding-left: 0;
+    }
+}
+@media screen and (max-width :310px){
+    .navbar{
+        flex-direction: column;
+    }
+    .logo{
+        font-size: 10vw;
+    }
+}
