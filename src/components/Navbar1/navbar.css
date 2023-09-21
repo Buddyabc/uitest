@@ -21,6 +21,7 @@ select{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-size: 1rem;
+    color: black;
 }
 .otherSection{
     display: flex;
@@ -38,6 +39,9 @@ select{
 .borderLine{
    height: 1px;
    background-color: rgb(233, 222, 222);
+}
+.mar-2{
+    margin-left: 2px;
 }
 @media screen and (max-width:900px) {
     .navbar{

@@ -43,6 +43,7 @@
 },
 {
     "SectionBC": {
+        "imgUrl":"https://icons.veryicon.com/png/o/miscellaneous/home-icon-1/house-30.png",
         "Accountno":"411003876454",
         "ElectricMeter":"611003876454",
         "WaterMeter":"911343676454",
@@ -50,4 +51,72 @@
         "Water": "911343676454",
         "Battery":"SunPower | Li-ion"
     }
-}]
+},
+{
+    "SectionC":"Dec 2018 To Nov 2019"
+},
+{
+    "gridPart":[
+        {
+            "month" : "Apr 2019",
+            "power"  : "173",
+            "pf"    : "Penalty"
+        },
+        {
+            "month" : "Aug 2019",
+            "power"  : "164",
+            "pf"    : "Incentive"
+        },
+        {
+            "month" : "Dec 2018",
+            "power"  : "175",
+            "pf"    : "Incentive"
+        },
+        {
+            "month" : "Dec 2019",
+            "power"  : "183",
+            "pf"    : "Incentive"
+        },
+        {
+            "month" : "Feb 2019",
+            "power"  : "177",
+            "pf"    : "Incentive"
+        },
+        {
+            "month" : "Jan 2019",
+            "power"  : "172",
+            "pf"    : "Incentive"
+        },
+        {
+            "month" : "Jul 2019",
+            "power"  : "194",
+            "pf"    : "Penalty"
+        },
+        {
+            "month" : "Jun 2019",
+            "power"  : "180",
+            "pf"    : "Incentive"
+        },
+        {
+            "month" : "Mar 2019",
+            "power"  : "190",
+            "pf"    : "Incentive"
+        },
+        {
+            "month" : "May 2019",
+            "power"  : "186",
+            "pf"    : "Incentive"
+        }
+    ]
+    },
+    {
+        "chartPart":
+        {
+        "Xaxis": ["Dec2018","Jan2019","Feb2019", "Mar2019", "Apr2019", "May2019", "Jun2019", "Jul2019", "Aug2019", "Sep2019", "Oct2019", "Nov2019", "Dec2019"],
+        "yaxis": [186, 184, 182, 183, 187, 185,183,184,181,182,184,183,192],
+        "min":180,
+        "max":195,
+        "stepsize":3
+        }
+    }
+]

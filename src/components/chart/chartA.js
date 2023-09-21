@@ -8,16 +8,17 @@ ChartJS.register(
   CategoryScale, LinearScale, PointElement, Filler
 )
 
-function ChartA() {
-
+function ChartA(props) {
+ 
+  // console.log(props.chartData.min);
   const [data, setData]= useState({
     data:{
-    labels:["Dec2018","Jan2019","Feb2019", "Mar2019", "Apr2019", "May2019", "Jun2019", "Jul2019", "Aug2019", "Sep2019", "Oct2019", "Nov2019", "Dec2019"],
+    labels: (props.chartData.Xaxis),
    
     datasets:[
       { 
         // label: "none",
-        data:[186, 184, 182, 183, 187, 185,183,184,181,182,184,183,192],
+        data:(props.chartData.yaxis),
         backgroundColor:'aqua',
         borderColor:'blue',
         tension:0.4,
@@ -48,10 +49,10 @@ function ChartA() {
           text:"Power Factor",
           color:"black"
         },
-        min:180,
-        max:195,
+        min: (props.chartData.min),
+        max:(props.chartData.max),
         ticks:{
-          stepSize:3
+          stepSize:(props.chartData.stepsize)
         }
       }
     },
@@ -62,6 +63,7 @@ function ChartA() {
     }
   } 
   })
+//  console.log(props.chartData.Xaxis);
   return (
     <div className="ChartAA">
       <Line data={data.data} options={data.options}>Hello</Line>

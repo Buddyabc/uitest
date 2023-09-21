@@ -4,6 +4,7 @@
     background-color: rgb(221, 218, 218);
     /* width: 100vw; */
     height: 45vh;
+    overflow: hidden;
     
 }
 .innerFooter{

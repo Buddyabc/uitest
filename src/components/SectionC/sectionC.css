@@ -5,6 +5,7 @@
     background-color: rgb(221, 218, 218);
     /* width: 100vw; */
     height: 80vh;
+    overflow: hidden;
 }
 .innerSectionC{
     margin-left: 5vw;

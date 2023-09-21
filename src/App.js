@@ -7,13 +7,14 @@ import Footer from './components/footer/footer';
 import inputs from "./input.json";
 
 function App() {
-  console.log(inputs[4].SectionBC);
+  // console.log(inputs[4].SectionBC);
+  // console.log(inputs[7].chartPart.Xaxis);
   return (
     <div className="App">
-      <Navbar logo={inputs[0].navbar.logo.inner}  accountLink={inputs[0].navbar.account.link} notificationLink={inputs[0].navbar.notification.link} name={inputs[0].navbar.selectedName.name} gridLink={inputs[0].navbar.grid.link}/>
-      <SectionA inner={inputs[1].SectionA.inner}/>
-      <SectionB compare={inputs[2].SectionB.compare} seeWhyLink={inputs[2].SectionB.seeWhy.link} homePrice={inputs[2].SectionB.Homeprice} similarHomeprice={inputs[2].SectionB.SimilarHomeprice} electricBill={inputs[3].SectionBB.ElectricBill} range={inputs[3].SectionBB.range} LearnmoreLink={inputs[3].SectionBB.LearnMore.link} LocalJson={inputs[4].SectionBC}/>
-      <SectionC/>
+      <Navbar navbarData={inputs[0].navbar} />
+      <SectionA inner={inputs[1].SectionA}/>
+      <SectionB partA={inputs[2].SectionB} partB={inputs[3].SectionBB} partC={inputs[4].SectionBC}/>
+      <SectionC sectionC={inputs[5].SectionC} gridData={inputs[6].gridPart} chartData={inputs[7].chartPart}/>
       <Footer/>
     </div>
   );

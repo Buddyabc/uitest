@@ -12,7 +12,8 @@ import {
 } from "react-router-dom";
 import GridA from "../GridA/gridA";
 
-const SectionC=()=>{
+const SectionC=(props)=>{
+  // console.log(props.chartData.Xaxis);
     return (
         <>
         <Router>
@@ -20,15 +21,15 @@ const SectionC=()=>{
             <div className="innerSectionC">
               <div className="upperC">
                 <div className="icons">
-                    <div className="chartIcon"><Link to="/"><InsertChartIcon/></Link></div>
-                    <div className="tableIcon"><Link to="/gridA"><TableChartIcon/></Link></div>
+                    <div className="chartIcon"><Link to="/" style={{color:"black"}}><InsertChartIcon/></Link></div>
+                    <div className="tableIcon"><Link to="/gridA" style={{color:"black"}}><TableChartIcon/></Link></div>
                 </div>
-                <div className="paraC">Period Dec 2018 To Nov 2019</div>
+                <div className="paraC">Period {props.sectionC}</div>
               </div>
          
               <Routes>
-                  <Route exact path="/" element={<ChartA key="chartA"/>}></Route>
-                  <Route exact path="/gridA" element={<GridA key="gridA"/>}></Route>
+                  <Route exact path="/" element={<ChartA key="chartA" chartData={props.chartData}/>}></Route>
+                  <Route exact path="/gridA" element={<GridA key="gridA" gridData={props.gridData} />}></Route>
               </Routes>
             
             </div>
