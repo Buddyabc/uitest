@@ -1,5 +1,5 @@
 import "./sectionB.css";
-import House3 from "./house3.jpg";
+// import House3 from "./house3.jpg";
 
 const SectionB = (props) => {
   return (

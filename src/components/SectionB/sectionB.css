@@ -121,6 +121,7 @@
     background-color: white;
     height: 50vh;
     border-radius: 1.5vh;
+    /* overflow: hidden; */
     /* padding-right: 10vw; */
 }
 .c-partA{
