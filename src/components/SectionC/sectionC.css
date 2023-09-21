@@ -13,6 +13,7 @@
     background-color: white;
     height: 36vw;
     width: 50vw;
+    overflow: hidden;
 }
 .upperC{
     padding:2vw 2vh;
@@ -61,5 +62,11 @@
     .chartIcon,.tableIcon{
         border:none;
         margin: 0vh 1vw 2vh 2vw;
+    }
+}
+@media screen and (max-width:600){
+    .chartIcon,.tableIcon{
+        height: 10vh;
+        width: 10vw;
     }
 }

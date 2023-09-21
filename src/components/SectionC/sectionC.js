@@ -22,7 +22,7 @@ const SectionC=(props)=>{
               <div className="upperC">
                 <div className="icons">
                     <div className="chartIcon"><Link to="/" style={{color:"black"}}><InsertChartIcon/></Link></div>
-                    <div className="tableIcon"><Link to="/gridA" style={{color:"black"}}><TableChartIcon/></Link></div>
+                    <div className="tableIcon"><Link to="/gridA" style={{color:"black"}}><TableChartIcon /></Link></div>
                 </div>
                 <div className="paraC">Period {props.sectionC}</div>
               </div>
